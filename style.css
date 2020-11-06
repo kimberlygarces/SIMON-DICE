@@ -1,0 +1,149 @@
+body {
+    margin: 0px;
+    font-family: 'Mulish', sans-serif; 
+}
+h2{
+    font: oblique bold 380% cursive;
+
+}
+
+#play,#stop{
+	display:inline-block;
+	padding:16px;
+	border:1px solid #000;
+	border-radius
+	:5px;
+}
+
+
+.header{
+    background-color: #21c08bb9;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+.container{
+    background: linear-gradient(#21c08bb9, #ac88ff6c);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 30px;
+    min-height: calc(100vh - 200px);
+
+
+}
+
+.ganeboard__container {
+    padding: 60px 68px 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+ }
+
+.gameboard {
+    height: 100vh;
+    width: 100vh;
+    border-radius: 80%;
+    overflow: hidden;
+    margin: 0 auto;
+    max-height: 60vh;
+    max-width: 60vh;
+    -webkit-box-shadow: -17px -14px 20px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: -17px -14px 20px -4px rgba(0,0,0,0.75);
+    box-shadow: -17px -14px 20px -4px rgba(0,0,0,0.75);
+    
+    
+}
+
+.color {
+    width: 50%;
+    height: 50%;
+    display: inline-block;
+    
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: left;
+}
+
+.celeste {
+    background: #22a6b3;
+}
+
+.celeste.light {
+    background: #7ed6df;
+}
+
+.violeta {
+    background: #be2edd;
+}
+
+.violeta.light {
+    background: #e056fd;
+}
+
+.naranja {
+    background: #f0932b;
+}
+
+.naranja.light {
+    background: #ffbe76;
+}
+
+.verde {
+    background: #6ab04c;
+}
+
+.verde.light {
+    background: #badc58;
+}
+
+.btn-start {
+    width: 240px;
+    height: 100px;
+    color: #17a6df;
+    font-size: 2.5rem;
+    position: absolute;
+    top: calc(45%);
+    left: calc(50% - 120px);
+    border-radius: 30%;
+    font: oblique bold 280% cursive;
+    border: none;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+
+}
+.footer {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100%; }
+  
+  .footer a {
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    padding-left: 30px;
+    text-decoration: none; }
+  
+  .footer a:hover {
+    text-decoration: underline; }
+
+.hide {
+    display: none;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
